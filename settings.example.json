@@ -1,0 +1,76 @@
+{
+  "download_directory": "~/Music",
+  "default_format": "M4a",
+  "default_bitrate": "Kbps320",
+  "cover_config": {
+    "width": 500,
+    "height": 500,
+    "format": "jpeg"
+  },
+  "metadata_config": {
+    "embed_metadata": true,
+    "embed_title": true,
+    "embed_artist": true,
+    "embed_album": true,
+    "embed_album_artist": true,
+    "embed_track_number": true,
+    "embed_disc_number": true,
+    "embed_year": true,
+    "embed_genre": true,
+    "embed_lyrics": true,
+    "embed_cover": true,
+    "embed_duration": true,
+    "embed_bpm": false,
+    "embed_isrc": false
+  },
+  "api_keys": {
+    "spotify_client_id": "YOUR_SPOTIFY_CLIENT_ID",
+    "spotify_client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+    "musixmatch_api_key": "YOUR_MUSIXMATCH_API_KEY",
+    "genius_access_token": "YOUR_GENIUS_ACCESS_TOKEN",
+    "lastfm_api_key": "YOUR_LASTFM_API_KEY",
+    "lastfm_client_secret": "YOUR_LASTFM_CLIENT_SECRET"
+  },
+  "ui_preferences": {
+    "window_width": 1200,
+    "window_height": 800,
+    "window_x": 100,
+    "window_y": 100,
+    "maximized": false,
+    "theme": "dark",
+    "show_advanced_options": false,
+    "auto_download_lyrics": true,
+    "auto_download_covers": true,
+    "preferred_lyrics_source": "lrclib",
+    "max_concurrent_downloads": 8
+  },
+  "sponsorblock_config": {
+    "enabled": true,
+    "remove_categories": [
+      "intro",
+      "outro",
+      "preview",
+      "interaction",
+      "selfpromo",
+      "music_offtopic",
+      "sponsor"
+    ]
+  },
+  "cookies_config": {
+    "enabled": false,
+    "browsers": [
+      "firefox",
+      "chrome",
+      "chromium",
+      "edge",
+      "safari"
+    ]
+  },
+  "proxy_config": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 1080,
+    "username": null,
+    "password": null
+  }
+}
